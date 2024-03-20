@@ -11,7 +11,12 @@ export const informacion = {
                 institucion: "SENA",
                 titulo: "Administracion en salud",
                 año: "2014"
-            }
+            } ,
+            {
+                institucion: "SENA", 
+                titulo: "Salud ocupacional",
+                año: "2011"
+            },
         ],
         formacionAdicional: [
             {
