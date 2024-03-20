@@ -1,0 +1,112 @@
+header {
+    height: 10vh;
+    line-height: 3%;
+    text-indent: 28%;
+    margin: 2%;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(59, 59, 61);
+    letter-spacing: 2px;
+    
+
+
+}
+
+main {
+    display: flex;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Abril Fatface', cursive;
+    color: aliceblue;
+
+
+    .circulo {
+        width: 20vh;
+        height: 20vh;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 2%;
+
+    }
+
+    .rojo {
+        background-color: rgb(223, 56, 84);
+
+    }
+
+    .verde {
+        background-color: rgb(68, 189, 236);
+    }
+
+    .gris {
+        background-color: rgb(221, 218, 28);
+    }
+}
+
+.imagen {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    right: 15vh;
+}
+
+img {
+    border-radius: 50%;
+
+}
+
+.saludo {
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(59, 59, 61);
+    line-height: 30%;
+    text-indent: 8%;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.presentacion {
+
+    text-align: center;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+footer {
+
+    margin-top: 30px;
+    padding: 5vh 3vh 10vh;
+    color: rgb(255, 255, 251);
+    background-color: rgb(223, 56, 84);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2%;
+    height: 15vh;
+ position: relative ; 
+    bottom: 0%;
+
+
+& div  { display: flex;
+    align-items: center;
+
+    column-gap: 2vh;
+    text-align: justify;
+
+} 
+
+}
+
+  
+
+    
+
+
+
